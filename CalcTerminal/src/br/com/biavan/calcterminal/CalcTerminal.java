@@ -15,9 +15,13 @@ public class CalcTerminal {
 	    do {
 	    	parm = scanner.next();
 	    	sb.append(parm);
-	    }while(!parm.contains("="));
+	    	if (parm.contains("=")) {
+	    		System.out.println(sb.toString());
+	    		sb = new StringBuffer();
+	    	}
+	    }while(!parm.contains("quit"));
 	    
-	    System.out.println(sb.toString());
+	    
 
 	}
 
