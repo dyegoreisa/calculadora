@@ -1,0 +1,40 @@
+package br.com.biavan.calcterminal;
+
+public abstract class AbstractCalc implements Calculable {
+	
+	private Double value;
+	
+	public AbstractCalc(Double value) {
+		super();
+		this.value = value;
+	}
+
+	@Override
+	public Calculable add(Double val) {
+		return value + val;
+	}
+
+	@Override
+	public Calculable subtract(Double val) {
+		return value - val;
+	}
+
+	@Override
+	public Calculable multiplies(Double val) {
+		return value * val;
+	}
+
+	@Override
+	public Calculable divides(Double val) {
+		Double[] result = {value / val, value % val};
+		return result;
+	}
+
+	@Override
+	public String toString() {
+		return value.toString();
+	}
+	
+	
+
+}

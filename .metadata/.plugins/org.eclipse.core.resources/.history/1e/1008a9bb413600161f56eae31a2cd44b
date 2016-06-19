@@ -1,0 +1,12 @@
+package br.com.biavan.calcterminal;
+
+public interface Calculable {
+	
+	public Calculable add(Double val);
+	
+	public Calculable subtract(Double val);
+	
+	public Calculable multiplies(Double val);
+	
+	public Calculable divides(Double val);
+}

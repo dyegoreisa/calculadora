@@ -1,0 +1,29 @@
+package br.com.biavan.calcterminal;
+
+public class Operation implements Calculable {
+
+	@Override
+	public Double add(Double val) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Double subtract(Double val) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Double multiplies(Double val) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Double[] divides(Double val) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

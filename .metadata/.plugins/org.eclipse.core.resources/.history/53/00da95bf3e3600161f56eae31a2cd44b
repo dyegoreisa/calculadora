@@ -1,0 +1,5 @@
+package br.com.biavan.calcterminal;
+
+public class Operation extends AbstractCalc implements Calculable {
+
+}

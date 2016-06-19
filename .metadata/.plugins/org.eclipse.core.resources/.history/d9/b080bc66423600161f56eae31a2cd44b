@@ -1,0 +1,53 @@
+package br.com.biavan.calcterminal;
+
+public abstract class AbstractCalc implements Calculable {
+	
+	private Double value;
+	private Double remainder;
+	
+	public AbstractCalc(Double value) {
+		super();
+		this.value = value;
+	}
+	
+	public Double getValue() {
+		return value;
+	}
+	
+	public Double getRemainder() {
+		return remainder;
+	}
+
+	@Override
+	public Calculable add(Double val) {
+		value = value + val;
+		return this;
+	}
+
+	@Override
+	public Calculable subtract(Double val) {
+		value = value - val;
+		return this;
+	}
+
+	@Override
+	public Calculable multiplies(Double val) {
+		value = value * val;
+		return this;
+	}
+
+	@Override
+	public Calculable divides(Double val) {
+		value = value / val;
+		remainder = value % val;
+		return this;
+	}
+
+	@Override
+	public String toString() {
+		return value.toString();
+	}
+	
+	
+
+}
