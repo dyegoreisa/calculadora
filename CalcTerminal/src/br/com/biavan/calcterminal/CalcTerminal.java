@@ -4,12 +4,12 @@ public class CalcTerminal {
 
 	public static void main(String[] args) {
 
-		Number num1 = new Number(Double.valueOf(15));
-		Number num2 = new Number(Double.valueOf(32.8));
-		Number num3 = new Number(Double.valueOf(6));
-		Number num4 = new Number(Double.valueOf(24));
-		Number num5 = new Number(Double.valueOf(4));
-		Number num6 = new Number(Double.valueOf(3));
+		Num num1 = new Num(Double.valueOf(15));
+		Num num2 = new Num(Double.valueOf(32.8));
+		Num num3 = new Num(Double.valueOf(6));
+		Num num4 = new Num(Double.valueOf(24));
+		Num num5 = new Num(Double.valueOf(4));
+		Num num6 = new Num(Double.valueOf(3));
 		
 		
 		System.out.println(num1.add(num3));
