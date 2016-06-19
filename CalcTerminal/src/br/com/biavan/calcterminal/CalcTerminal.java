@@ -12,6 +12,7 @@ public class CalcTerminal {
 		
 		
 		System.out.println(num1.add(num3));
+		System.out.println(num4.subtract(num3));
 
 	}
 
