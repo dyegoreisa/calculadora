@@ -1,5 +1,0 @@
-package br.com.biavan.calcterminal;
-
-public interface Calculable {
-
-}
