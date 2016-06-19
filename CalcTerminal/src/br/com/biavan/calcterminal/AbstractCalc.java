@@ -42,8 +42,8 @@ public abstract class AbstractCalc implements Calculable {
 	@Override
 	public Calculable divides(Calculable num) {
 		AbstractCalc val = (AbstractCalc) num;
-		value = value / val.getValue();
 		remainder = value % val.getValue();
+		value = value / val.getValue();
 		return this;
 	}
 
