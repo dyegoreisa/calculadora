@@ -6,9 +6,16 @@ public class CalcTerminal {
 
 	public static void main(String[] args) {
 
-	    Scanner scanner = new Scanner(System.in);
+	    System.out.println("┌────────────────────┐");
+	    System.out.println("│  ╔═══╗ Calculadora │▒");
+	    System.out.println("│  ╚═╦═╝ Terminal    │▒");
+	    System.out.println("╞═╤══╩══╤════════════╡▒");
+	    System.out.println("│ ├──┬──┤            │▒");
+	    System.out.println("│ └──┴──┘            │▒");
+	    System.out.println("└────────────────────┘▒");
+	    System.out.println("▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒");
 
-	    System.out.println("--<<< < < < [ Calculadora ] > > > >>>--");
+	    Scanner scanner = new Scanner(System.in);
 	    
 	    String parm = "";
 	    StringBuffer sb = new StringBuffer();
