@@ -68,7 +68,15 @@ public abstract class AbstractCalc implements Calculable {
 
 	@Override
 	public String toString() {
-		return value.toString();
+		
+		String result = null;
+		if (remainder != null && remainder != 0) {
+			result = value.toString() + " R: " + remainder.toString();
+		} else { 
+			result = value.toString();	
+		}
+		
+		return result;
 	}
 
 	@Override
